@@ -16,6 +16,8 @@
 
 package cron
 
+var qualificationChars = []string{",", "-", "/"}
+
 type qualification int
 
 func (q qualification) String() string {
